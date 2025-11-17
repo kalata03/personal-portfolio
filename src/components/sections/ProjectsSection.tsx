@@ -14,11 +14,11 @@ import { Button } from "../ui/button";
 
 const projects = [
   {
-    title: "DevFlow — Q&A Platform for Developers",
+    title: "CodeChecker AI — Intelligent Code Review Tool",
     description:
-      "A full-stack platform inspired by StackOverflow. Features authentication, question posting, answers, voting, filtering, and a modern responsive UI. Built to practice real-world app architecture.",
-    tech: "React • TypeScript • Node.js • Express • PostgreSQL • Prisma • JWT • Tailwind",
-    link: "https://devflow-iaki.vercel.app/",
+      "A full-stack AI-powered code review platform built with Next.js App Router. Supports multiple languages, validates input, and generates detailed feedback using the OpenAI API. Includes clean UI components, server-side API routes, and an optimized user workflow.",
+    tech: "Next.js • React • TypeScript • OpenAI API • shadcn/ui",
+    link: "https://code-checker-ai.vercel.app/",
   },
   {
     title: "Portfolio Website",
@@ -28,12 +28,12 @@ const projects = [
     link: "https://kaloyantsvetkov.vercel.app/",
   },
   {
-    title: "CodeChecker AI — Intelligent Code Review Tool",
+    title: "DevFlow — Q&A Platform for Developers",
     description:
-      "A full-stack AI-powered code review platform built with Next.js App Router. Supports multiple languages, validates input, and generates detailed feedback using the OpenAI API. Includes clean UI components, server-side API routes, and an optimized user workflow.",
-    tech: "Next.js • React • TypeScript • OpenAI API • shadcn/ui",
-    link: "https://code-checker-ai.vercel.app/"
-  }
+      "A full-stack platform inspired by StackOverflow. Features authentication, question posting, answers, voting, filtering, and a modern responsive UI. Built to practice real-world app architecture.",
+    tech: "React • TypeScript • Node.js • Express • PostgreSQL • Prisma • JWT • Tailwind",
+    link: "https://devflow-iaki.vercel.app/",
+  },
 ];
 
 export function ProjectsSection() {
