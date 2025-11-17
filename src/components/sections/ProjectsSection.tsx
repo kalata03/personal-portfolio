@@ -27,6 +27,13 @@ const projects = [
     tech: "Next.js • TypeScript • Tailwind • shadcn/ui • Framer Motion",
     link: "https://kaloyantsvetkov.vercel.app/",
   },
+  {
+    title: "CodeChecker AI — Intelligent Code Review Tool",
+    description:
+      "A full-stack AI-powered code review platform built with Next.js App Router. Supports multiple languages, validates input, and generates detailed feedback using the OpenAI API. Includes clean UI components, server-side API routes, and an optimized user workflow.",
+    tech: "Next.js • React • TypeScript • OpenAI API • shadcn/ui",
+    link: "https://code-checker-ai.vercel.app/"
+  }
 ];
 
 export function ProjectsSection() {
